@@ -7,11 +7,14 @@ public class Gato {
 	private String cor;
 	private Integer idade;
 	
+	
 	public Gato(String nome, String cor, Integer idade) {
+		super();
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
 	}
+	
 	public String getNome() {
 		return nome;
 	}
